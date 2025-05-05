@@ -1,4 +1,4 @@
-import { getVillains } from "./database";
+import { getVillains } from "./database.js";
 
 const villains = getVillains();
 export const VillainList = () => {
